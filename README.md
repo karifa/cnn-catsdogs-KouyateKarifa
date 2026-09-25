@@ -1,7 +1,7 @@
-# TP - CNN "from scratch" vs Transfer Learning (Cats vs Dogs)
+# Devoir - CNN "from scratch" vs Transfer Learning (Cats vs Dogs)
 
 **Etudiant :** Karifa Kouyaté
-**Formation :** Master IA DIT
+**Formation :** Master 1 IA DIT
 **Date :** Septembre 2026
 **Enseignant :** M. Diallo (diallomous@gmail.com)
 

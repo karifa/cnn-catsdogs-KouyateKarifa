@@ -37,7 +37,7 @@ Contenu du fichier requirements.txt : torch, torchvision, matplotlib, numpy, sci
 Le jeu de donnees utilise provient du corpus officiel Cats vs Dogs de Kaggle. Les donnees ne sont pas suivies par Git (voir .gitignore) et doivent etre telechargees puis placees localement selon l'arborescence suivante :
 
 ```
-cnn-catsdogs-Mamoudou_BAH/
+cnn-catsdogs-KouyateKarifa/
 ├─ Cat_Dog_data/
 │  ├─ train/
 │  │  ├─ cat/

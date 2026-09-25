@@ -1,5 +1,6 @@
 # Données et modèles
 data/
+Cat_Dog_data/
 *.pt
 *.pth
 runs/

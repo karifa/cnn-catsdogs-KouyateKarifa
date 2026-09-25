@@ -7,22 +7,24 @@
 
 ## Objectif du projet
 
-Ce projet compare deux approches de reseaux de neurones convolutifs (CNN) pour un probleme de classification binaire (chats vs chiens) :
+Le but est d'apprendre à un ordinateur à reconnaître si une photo montre un chat ou un chien.
 
-1. Experience A (CNN from scratch) : architecture personnalisee a 3 blocs convolutifs, avec regularisation par Batch Normalization et Dropout, optimisee avec Adam.
-2. Experience B (Transfer Learning) : architecture pre-entrainee ResNet18, dont les couches de base sont gelees, avec une nouvelle couche de classification finale, optimisee avec SGD.
-3. Experience C (comparaison d'optimiseurs) : la meme architecture from scratch que l'Experience A, reentrainee avec SGD, afin de comparer deux optimiseurs a configuration egale.
+Ce projet compare deux approches de réseaux de neurones convolutifs (CNN) pour un probleme de classification binaire (chats vs chiens) :
 
-L'etude met en evidence l'impact de ces approches sur la vitesse de convergence, la performance finale et la capacite de generalisation sur des donnees inedites.
+1. Experience A (CNN from scratch) : architecture personnalisée a 3 blocs convolutifs, avec regularisation par Batch Normalization et Dropout, optimisée avec Adam.
+2. Experience B (Transfer Learning) : architecture pré-entraînée ResNet18, dont les couches de base sont gelées, avec une nouvelle couche de classification finale, optimisée avec SGD.
+3. Experience C (comparaison d'optimiseurs) : la même architecture from scratch que l'Experience A, réentraînée avec SGD, afin de comparer deux optimiseurs à configuration égale.
+
+L'étude met en évidence l'impact de ces approches sur la vitesse de convergence, la performance finale et la capacité de généralisation sur des données inédites.
 
 ## Configuration de l'environnement
 
-Le projet a ete developpe et execute sur macOS (MacBook Pro) en exploitant l'acceleration materielle de la puce Apple Silicon via le peripherique MPS (Metal Performance Shaders).
+Le projet a été développé et exécuté sur macOS (MacBook Pro) en exploitant l'accélération matérielle de la puce Apple Silicon via le périphérique MPS (Metal Performance Shaders).
 
 ### Installation des dependances
 
 ```bash
-# Creation et activation d'un environnement virtuel (optionnel)
+# Création et activation d'un environnement virtuel (optionnel)
 python3 -m venv env
 source env/bin/activate
 
@@ -32,9 +34,9 @@ pip install -r requirements.txt
 
 Contenu du fichier requirements.txt : torch, torchvision, matplotlib, numpy, scikit-learn, jupyter.
 
-## Organisation des donnees
+## Organisation des données
 
-Le jeu de donnees utilise provient du corpus officiel Cats vs Dogs de Kaggle. Les donnees ne sont pas suivies par Git (voir .gitignore) et doivent etre telechargees puis placees localement selon l'arborescence suivante :
+Le jeu de données utilisé provient du corpus officiel Cats vs Dogs de Kaggle. Les données ne sont pas suivies par Git (voir .gitignore) et doivent être téléchargées puis placées localement selon l'arborescence suivante :
 
 ```
 cnn-catsdogs-KouyateKarifa/

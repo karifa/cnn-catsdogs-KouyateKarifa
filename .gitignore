@@ -1,0 +1,11 @@
+# Données et modèles
+data/
+*.pt
+*.pth
+runs/
+checkpoints/
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

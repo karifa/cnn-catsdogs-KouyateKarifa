@@ -94,7 +94,7 @@ Le meilleur modele de chaque experience (selon la val loss) est sauvegarde autom
 
 ### Metriques finales sur le jeu de test
 
-Ces valeurs sont produites par la derniere cellule du notebook. Reporter ici les lignes affichees apres execution.
+Ces valeurs sont produites par la derniere cellule du notebook. A voir après exécution de la cellule.
 
 | Modele / Experience | Accuracy (Test) | Precision (Test) | Recall (Test) |
 | --- | --- | --- | --- |
